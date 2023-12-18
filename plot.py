@@ -1,4 +1,5 @@
 import platform
+import sys
 import psutil
 import subprocess
 import matplotlib
@@ -47,8 +48,7 @@ def plotOutput(values: list):
 
 def gatherBenchmark(python: str, java: str, kronMatrixSize: int, jvmWarmUpCycles: int) -> list:
     # default venv verion, python 3.11
-    pythonVersion: str = "./venv/bin/python"
-    pythonResult: list = subprocess.run([pythonVersion, python, str(kronMatrixSize)], stdout=subprocess.PIPE, text=True).stdout.splitlines()
+    pythonResult: list = subprocess.run([sys.executable, python, str(kronMatrixSize)], stdout=subprocess.PIPE, text=True).stdout.splitlines()
 
     # default system version, tested with OpenJDK21
     javaVersion: str = "java"
