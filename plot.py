@@ -5,7 +5,7 @@ import subprocess
 import matplotlib
 import matplotlib.pyplot as plt
 
-matplotlib.use('QtAgg')
+#matplotlib.use('QtAgg')
 
 
 def plotOutput(values: list):

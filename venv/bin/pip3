@@ -1,4 +1,4 @@
-#!/home/user/Documents/Code/Scripts/Jai/matrix_multiplication_JvP/venv/bin/python
+#!/home/ishringe/src/Matrix-Multiplication-Benchmark/venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys

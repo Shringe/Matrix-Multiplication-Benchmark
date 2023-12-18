@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/home/user/Documents/Code/Scripts/Jai/matrix_multiplication_JvP/venv"
+VIRTUAL_ENV="/home/ishringe/src/Matrix-Multiplication-Benchmark/venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
